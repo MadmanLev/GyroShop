@@ -1,0 +1,774 @@
+.main-width {
+    width: 1144px;
+    display: flex;
+    justify-content: center; 
+    padding-inline: 2%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.half {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.quarter {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.third {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 12pt;
+    margin-left: 27px;
+    margin-left: 20px;
+}
+
+.product-price {
+    font-size: 12pt;
+    font-weight: bolder;
+    margin-left: 27px;
+}
+
+.staff-card {
+    background: #F0f0f0;
+    display: flex;
+    width: 350px;
+    height: 197px;
+    margin-inline: 10px;
+    margin-bottom: 10px;
+}
+
+.staff-info {
+    width: 160px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.staff-photo {
+    width: 190px;
+    background-size: cover;
+}
+
+.staff-button {
+    cursor: pointer;
+    font-size: 10pt;
+    width: 73px;
+    height: 28px;
+    border: none;
+    background: #FFA019;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-button {
+    padding-inline: 10px;
+    cursor: pointer;
+    font-size: 10pt;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-button-on {
+    background: #FFA019;
+}
+
+.info-card {
+    cursor: pointer;
+    background-size: cover;
+    width: 263px;
+    height: 263px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-inline: 10px;  
+}
+
+.vertical {
+    flex-direction: column;
+    justify-content: flex-start;
+    color: gray;
+}
+
+.w70p {
+    width: 70%;
+}
+
+.gbg {
+    background: #F0f0f0;
+}
+
+.obg {
+    background: #FFA019;
+}
+
+.pad100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.fontA {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Это выглядит так потому что я сначала писал параметры в стилях а потом уже переносил в css файлы. Оставшиеся в html файле стили не перенесены по каким-то причинам. А может я что-то пропустил */
+.brands {
+    width: 100%;
+    padding: 0;
+    font-size: 37.5pt;
+    align-items: center;
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    color: gray;
+    font-weight: bold;
+    flex-wrap: wrap
+}
+
+.headshad {
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fs12 {
+    font-size: 12pt;
+}
+
+.topbuttonout {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.topbutton {
+    font-size: 10pt;
+    background: #FFA019;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    padding: 0px 35px 0px 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.topcompanyname {
+    font-size: 22.5pt;
+    margin: 9px 0px 9px 0px;
+    white-space: nowrap;
+}
+
+.navbar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbarlist {
+    list-style-type: none;
+    display: flex;
+    font-size: 10.5pt;    
+}
+
+.navbarlistpad {
+    margin-right: 20px;
+    text-decoration: none;     
+}
+
+.atextdec {
+    text-decoration: none;
+    color: black;
+}
+
+.topimage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 877px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/scooter.jpg');
+    background-size: cover;
+}
+
+.topbigcompanyname {
+    margin-top: 180px;
+    font-size: 42pt;
+    color: white;
+}
+
+.shopdesc {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+.catalogbutton {
+    font-size: 15pt;
+    background: white;
+    border: 0px;
+    border-radius: 10px;
+    height: 35px;
+    padding: 0px 35px 0px 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.arrowbuttons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.arrowleft {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.arrowright {
+    cursor: pointer;
+}
+
+.advimg {
+    margin-left: 90px;
+    margin-right: 90px
+}
+
+.advp {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.aboutdesc {
+    flex-direction: column;
+    font-size: 15pt;
+}
+
+.fs25-5 {
+    font-size: 25.5pt;
+    font-weight: lighter;
+    /*padding-inline: 2%;*/
+}
+
+.subsdesc {
+    color: white;
+    font-size: 15pt;
+    margin-right: 33px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subinputname {
+    padding-left: 20px;
+    color: white;
+    border: 1px solid white;
+    background: #FFA019;
+    height: 46px;
+    width: 282px;
+    margin-right: 33px;
+}
+
+.subinputsurename {
+    padding-left: 20px;
+    border: 1px solid white;
+    background: #FFA019;
+    height: 46px;
+    width: 282px;
+    margin-right: 80px;
+    color: white;
+}
+
+.subbutton {
+    background: white;
+    border: 0px;
+    cursor: pointer;
+    height: 46px;
+    width: 282px;
+}
+
+.subst {
+    height: 94px;
+    align-items: center;
+}
+
+.features {
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*.featel {
+    width: 33%;
+}*/
+
+.fs15 {
+    font-size: 15pt;
+}
+
+.prbuttonst {
+    cursor: pointer;
+    margin-right: 15px
+}
+
+/*.precardst {
+    display: flex;
+    margin:10px;
+     height: 382px; 
+}*/
+
+.cardp {
+    background: #FFA019;
+    font-size: 12pt;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    padding: 5px 15px 5px 10px;
+    color: white;    
+}
+
+.cardimg {
+    margin-top: 60px;
+    width: 214px;
+    height: 214px;
+}
+
+.fs9 {
+    font-size: 9pt;
+}
+
+.brandsalignkindathing {
+    background: #f0f0f0;    
+    /* height: 194px; */
+    display: flex;
+    margin-top: 50px;
+}
+
+.mauto {
+    margin: auto;
+    padding: 10px;
+}
+
+.fs13-5w {
+    font-size: 13.5pt;
+    color: white;
+}
+.footerinfo{
+    text-decoration: none;
+    font-size: 9pt;
+    color: gray;
+    line-height: 20px;    
+}
+.footerinfoinfo{
+    font-weight: bold;    
+}
+.roji{
+    display: flex;
+    align-items: center;
+}
+.m-menu{
+    display: none;    
+}
+  .menu{
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    margin-left: 17px;
+    align-items: center;       
+  }
+  .menu-item{
+    /*margin-right: 25px;*/
+    font-size: 10pt;
+  }
+  .menu-link{
+    color: white;
+    text-decoration: none;
+  }
+  .button{
+    display: block;
+    background: #fe8e05;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 24px 52px;
+    text-decoration: none;
+  }
+  .by2{
+    display: flex;
+  }
+  .line{
+    display: flex;
+  }
+  .aboutscaling{    
+    text-align: center;
+  }
+  .calalogby2{
+    display: flex;  
+    justify-content: center
+  }
+  .catalogline{
+    display: flex;  
+  }
+  .catalogcardsline{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }  
+  .catalogcardsby2{
+    display: flex;    
+  }
+  .brandsline{
+    /*visibility: hidden;*/
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .brandsby2{
+    display: flex;
+  }
+  .brandsspace{
+    padding-inline: 10px;
+  }
+  .helpline{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+
+  }
+  .helpby2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+  .graybg{
+    background: lightgray;
+  }
+  /* МЕДИА ЗАПРОСЫ */
+
+/*@media (max-width: 850){
+
+}*/
+    @media (max-width: 1550px) {
+        .brandsalignkindathing {
+            height: 150px;            
+        }
+        .brands{
+            font-size: 26pt;
+        }
+    }
+    @media (max-width: 1300px){
+        .subsdesc {            
+            margin-right: 0;            
+        }
+        .advimg{
+            width: 100px;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        .advp{
+            font-size: 12pt;
+        } 
+        .subst {
+            display: flex;
+            flex-direction: column;
+            height: 280px;
+        }
+        .subinputname {            
+            margin-right: 0px;
+            margin-bottom: 10px; 
+        }
+        
+        .subinputsurename {            
+            margin-right: 0px;    
+            margin-bottom: 10px;        
+        }
+        .cardimg{
+            height:160px;
+            width: 160px;
+        }
+        .card{
+            width: 200px;
+            height: 350px;            
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .info-card{
+            height: 200px;
+            width: 200px;
+            font-size: 10pt;
+        }
+    }
+
+    @media (max-width: 1100px) {
+
+        .staff-photo{
+            width: 160px; 
+            height: 160px;  
+            background-size: 50%;
+        }
+        .brandsalignkindathing {
+            height: 100px;            
+        }
+        .brands{
+            font-size: 18pt;
+        }
+        .staff-card{
+            height: 160px;
+            width: 300px;
+        }
+    }
+    @media (max-width: 1100px) {
+        .features{
+            flex-direction: column;
+            align-items: center
+        }
+    }
+    @media (max-width: 950px) {
+        .half{
+            flex-direction: column;           
+            align-items: center;
+        }
+    }
+    @media (max-width: 900px) {
+        .card{
+            width: 150px;
+            height: 300px;
+        }
+        .cardimg{
+            height:120px;
+            width: 120px;
+        }
+        .product-name{
+            font-size: 10pt;
+        }  
+    }
+    @media (max-width: 850px) {        
+        
+        .info-card{
+            height: 150px;
+            width: 150px;
+            font-size: 9pt;
+        }
+        .roji{
+            flex-direction: column;
+        }
+        .brandsalignkindathing {
+            height: 70px;            
+        }
+        .brands{
+            font-size: 13pt;
+        }
+        .staff-card {
+            background: #F0f0f0;
+            display: flex;
+            width: 350px;
+            height: 197px;
+            margin-inline: 10px;
+            margin-bottom: 10px;            
+        }               
+
+        .staff-photo {
+            width: 190px;    
+            height: 196px;    
+            background-size: cover;
+        }        
+        
+        .topbutton {
+            font-size: 9pt;            
+            padding: 5px 15px 0px 15px;            
+        }
+        .topimage {            
+            height: 500px;            
+        }
+        .topbigcompanyname{
+            margin-top: 100px;
+        }
+        .fs12{
+            font-size: 10pt;
+        }
+        .advimg{
+            width: 60px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }        
+        .main-width {
+            width: 700px;
+            display: flex;                  
+        }
+        .topcompanyname {
+            /*display: none;*/
+            font-size: 18pt;
+            margin: 9px 0px 9px 0px            
+        }
+        .atextdec {
+            text-decoration: none;
+            font-size: 12px;
+            color: black;
+        }
+        .advp{
+            font-size: 10pt;
+        }              
+        
+    }
+    @media (max-width: 750px) {      
+
+        .navbarlistpad{
+            display: none;
+        }  
+          .menu{
+            position:absolute;            
+            right: 0;
+            /* top: 40px; */
+            flex-direction: column;
+            padding: 20px;
+            margin-left: 10px;
+            background-color:#505050;
+            z-index: 9;
+            border-radius: 10px;
+            opacity: 0; 
+            visibility: hidden;
+            transform: translateY(20%);
+            transition: opacity 0.5s, transform 0.5s;
+            display:flex;            
+          }
+          .menu-item:not(:last-child) {
+            margin-bottom: 10px;
+          }
+          .m-menu{
+            display: block;
+            background-color: transparent;
+            border: none;
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+            cursor: pointer;
+          }
+          .is-open{
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+          }
+
+          @media (max-width: 650px) {
+            .brandsalignkindathing{
+                height: 100px;
+            }
+            .line{
+                flex-direction: column;
+            }
+            .aboutscaling{
+                font-size: 12pt;
+            }
+          } 
+          @media (max-width: 580px) {
+          .catalogline{
+            flex-direction: column;
+          }      
+
+          /*.brands{            
+            display: none;            
+          }*/
+          /*.brandsalignkindathing{
+            display: none;*/
+          /*}
+          .brandsline{
+            display: flex;
+          }*/
+        }
+        /*.container{
+            max-width: 560px;
+          }
+          .menu{
+            position: absolute;
+            left: 0;
+            top: 40px;
+            flex-direction: column;
+            padding: 20px;
+            margin-left: 20px;
+            background-color: #621402;
+            z-index: 9;
+            border-radius: 10px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20%);
+            transition: opacity 0.5s, transform 0.5s;
+          }*/
+
+    }
+
+        /*@media (max-width: 700px) {
+            .main-width {
+                width: 700px;
+                display: flex;        
+            }
+            .topcompanyname {
+                display: none;
+                font-size: 22.5pt;
+                margin: 9px 0px 9px 0px
+            }
+            .atextdec {
+                text-decoration: none;
+                font-size: 12px;
+                color: black;
+            }
+
+            @media (max-width: 660px) {
+                .main-width {
+                    width: 700px;
+                    display: flex;        
+                }
+                .topcompanyname {
+                    display: none;
+                    font-size: 22.5pt;
+                    margin: 9px 0px 9px 0px
+                }
+                .atextdec {
+                    text-decoration: none;
+                    font-size: 10px;
+                    color: black;
+                }
+                .navbarlist {
+                    list-style-type: none;
+                    display: flex;
+                    font-size: 10.5pt;   
+                    padding-left: 0; 
+                }
+                .navbar {                    
+                    display: flex;
+                    align-items: center;
+                }
+    }
+}
+}*/
+
